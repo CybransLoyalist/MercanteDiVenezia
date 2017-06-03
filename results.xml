@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="10" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="2" sequenceCoverage="40" branchCoverage="40" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="2" numMethods="5" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="95-6F-A7-D9-CA-57-AB-DE-E6-29-67-E1-17-75-0C-A6-6A-E1-81-1E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="70-0A-8C-00-26-D7-8E-3A-41-3C-43-6D-01-3C-09-CC-C9-73-85-C0">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit3-console.exe</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit3-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-4F-A1-35-97-44-A9-E0-41-2B-3D-42-2C-4C-AF-72-95-4A-4C-75">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="90-A5-CB-F1-B1-A1-C2-DE-2A-BF-0B-6F-28-E9-82-CA-41-44-09-3A">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="96-DE-EF-3F-02-DC-0C-37-07-3E-B9-1D-D2-EF-F9-A2-D3-8E-11-00">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="96-DE-EF-3F-02-DC-0C-37-07-3E-B9-1D-D2-EF-F9-A2-D3-8E-11-00">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-35-2B-3A-E0-8A-EC-A6-7E-DB-3B-17-A4-30-75-D9-31-4D-9F-2B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-7E-0C-8A-5F-09-F6-0F-15-50-1C-10-9F-E5-08-3A-E8-0A-D6-1B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="95-6F-A7-D9-CA-57-AB-DE-E6-29-67-E1-17-75-0C-A6-6A-E1-81-1E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="75-5F-1A-C1-0E-E6-C9-A3-EC-A1-F0-6E-89-B4-98-86-0B-A8-B2-AD">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit-agent.exe</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="96-DE-EF-3F-02-DC-0C-37-07-3E-B9-1D-D2-EF-F9-A2-D3-8E-11-00">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="90-A5-CB-F1-B1-A1-C2-DE-2A-BF-0B-6F-28-E9-82-CA-41-44-09-3A">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-4F-A1-35-97-44-A9-E0-41-2B-3D-42-2C-4C-AF-72-95-4A-4C-75">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-7E-0C-8A-5F-09-F6-0F-15-50-1C-10-9F-E5-08-3A-E8-0A-D6-1B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-35-2B-3A-E0-8A-EC-A6-7E-DB-3B-17-A4-30-75-D9-31-4D-9F-2B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E7-66-5A-18-D3-04-27-DC-E1-A7-6B-CE-09-1D-64-31-67-96-A3-8F">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2016-10-03T18:52:56Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-4F-A1-35-97-44-A9-E0-41-2B-3D-42-2C-4C-AF-72-95-4A-4C-75">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-A2-BD-63-F9-F2-57-08-E9-96-4F-80-7E-4F-54-31-E1-75-FD-E3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-35-2B-3A-E0-8A-EC-A6-7E-DB-3B-17-A4-30-75-D9-31-4D-9F-2B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="52-97-F2-DC-35-07-C7-36-F8-D0-B2-C9-CC-F8-62-F1-3A-1E-25-A4">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\MercanteDiVeneziaTests.dll</ModulePath>
+      <ModuleTime>2017-06-03T09:21:07.6671014Z</ModuleTime>
+      <ModuleName>MercanteDiVeneziaTests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="D2-9F-86-5C-12-06-24-90-A8-9F-9E-24-AA-DB-9F-92-9C-01-F8-5A">
+      <Summary numSequencePoints="10" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="2" sequenceCoverage="40" branchCoverage="40" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="2" visitedMethods="2" numMethods="5" />
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\MercanteDiVenezia.exe</ModulePath>
+      <ModuleTime>2017-06-03T09:21:07.538094Z</ModuleTime>
+      <ModuleName>MercanteDiVenezia</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\obj\Debug\Views\App.g.cs" />
+        <File uid="2" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\App.xaml" />
+        <File uid="3" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\MainWindow.xaml.cs" />
+        <File uid="4" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\obj\Debug\Views\MainWindow.g.cs" />
+        <File uid="5" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\MainWindow.xaml" />
+        <File uid="6" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Properties\Settings.Designer.cs" />
+        <File uid="7" fullPath="c:\users\cybransloyalist\documents\visual studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\ViewModels\MainWindowViewModel.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>MercanteDiVenezia.App</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.App::InitializeComponent()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.App::Main()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.App::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="2" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.MainWindow</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.MainWindow::.ctor()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="3" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="28" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="4" ordinal="1" offset="7" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="5" ordinal="2" offset="8" sl="25" sc="13" el="25" ec="35" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="6" ordinal="3" offset="15" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="3" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="28" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.MainWindow::InitializeComponent()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.MainWindow::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="7" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Attribute">
+          <FullName>MercanteDiVenezia.Properties.Resources</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>MercanteDiVenezia.Properties.Settings</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663307</MetadataToken>
+              <Name>MercanteDiVenezia.Properties.Settings MercanteDiVenezia.Properties.Settings::get_Default()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Properties.Settings::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="8" ordinal="0" offset="0" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Properties.Settings::.cctor()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="4" numBranchPoints="4" visitedBranchPoints="2" sequenceCoverage="66.67" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="4" />
+          <FullName>MercanteDiVenezia.ViewModels.MainWindowViewModel</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.String MercanteDiVenezia.ViewModels.MainWindowViewModel::get_Message()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="9" ordinal="0" offset="0" sl="11" sc="33" el="11" ec="37" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="9" ordinal="0" offset="0" sl="11" sc="33" el="11" ec="37" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.MainWindowViewModel::set_Message(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" offset="0" sl="11" sc="38" el="11" ec="42" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="10" ordinal="0" offset="0" sl="11" sc="38" el="11" ec="42" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Int32 MercanteDiVenezia.ViewModels.MainWindowViewModel::Add(System.Int32,System.Int32)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="11" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="12" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="26" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="13" ordinal="2" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="11" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.MainWindowViewModel::.ctor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="14" ordinal="0" offset="0" sl="11" sc="47" el="11" ec="77" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="14" ordinal="0" offset="0" sl="11" sc="47" el="11" ec="77" bec="0" bev="0" fileid="7" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Attribute">
+          <FullName>MercanteDiVenezia.ExtensionsAndHelpers.ExcludeFromCoverageAttribute</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
