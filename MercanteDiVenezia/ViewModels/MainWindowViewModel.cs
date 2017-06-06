@@ -1,14 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercanteDiVenezia.ViewModels
+﻿namespace MercanteDiVenezia.ViewModels
 {
     public class MainWindowViewModel
     {
-        public string Message { get; set; } = "Elo siora, gratsy, działa :D";
+        public AdminViewModel AdminViewModel { get; private set; }
+
+        public MainWindowViewModel() : this(new AdminViewModel())
+        {
+        }
+
+        public MainWindowViewModel(AdminViewModel adminViewModel)
+        {
+            AdminViewModel = adminViewModel;
+        }
 
         public int Add(int a, int b)//todo to be removed
         {
