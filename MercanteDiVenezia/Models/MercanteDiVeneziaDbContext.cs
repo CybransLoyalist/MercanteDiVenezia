@@ -9,6 +9,11 @@ namespace MercanteDiVenezia.Models
 {
     class MercanteDiVeneziaDbContext : DbContext
     {
+        public MercanteDiVeneziaDbContext() : base()
+        {
+            Database.SetInitializer<MercanteDiVeneziaDbContext>(new CreateDatabaseIfNotExists<MercanteDiVeneziaDbContext>());
+        }
         public DbSet<Customer> Categories { get; set; }
+
     }
 }

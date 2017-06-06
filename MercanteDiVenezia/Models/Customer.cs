@@ -20,5 +20,8 @@ namespace MercanteDiVenezia.Models
 
         [Required]
         public string Street { get; set; }
+
+        [Required]
+        public string HomeNumber { get; set; }
     }
 }

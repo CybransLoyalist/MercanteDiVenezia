@@ -311,14 +311,6 @@ window.matchMedia || (window.matchMedia = function() {
 
 
 var assemblies = [
-  {
-    "name" : "MercanteDiVenezia",
-    "classes" : [
-    {  "name" : "MercanteDiVenezia.App", "reportPath" : "MercanteDiVenezia_App.htm", "coveredLines" : 0, "uncoveredLines" : 0, "coverableLines" : 0, "totalLines" : 70, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
-    {  "name" : "MercanteDiVenezia.MainWindow", "reportPath" : "MercanteDiVenezia_MainWindow.htm", "coveredLines" : 0, "uncoveredLines" : 4, "coverableLines" : 4, "totalLines" : 104, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
-    {  "name" : "MercanteDiVenezia.Properties.Settings", "reportPath" : "MercanteDiVenezia_Settings.htm", "coveredLines" : 0, "uncoveredLines" : 0, "coverableLines" : 0, "totalLines" : 30, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
-    {  "name" : "MercanteDiVenezia.ViewModels.MainWindowViewModel", "reportPath" : "MercanteDiVenezia_MainWindowViewModel.htm", "coveredLines" : 4, "uncoveredLines" : 0, "coverableLines" : 4, "totalLines" : 18, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
-  ]},
 ];
 
 
