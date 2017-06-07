@@ -15,5 +15,6 @@ namespace MercanteDiVenezia.Models
         }
         public DbSet<Customer> Categories { get; set; }
 
+        public DbSet<Item> Items { get; set; }
     }
 }

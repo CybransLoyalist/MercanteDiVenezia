@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MercanteDiVenezia"
         xmlns:viewModels="clr-namespace:MercanteDiVenezia.ViewModels"
         mc:Ignorable="d"
-        Title="Il Mercante Di Venezia" Height="800" Width="1200">
+        Title="Il Mercante Di Venezia" Height="400" Width="600">
     <Window.DataContext>
         <viewModels:MainWindowViewModel />
     </Window.DataContext>

@@ -5,11 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MercanteDiVenezia"
         xmlns:viewModels="clr-namespace:MercanteDiVenezia.ViewModels"
-        mc:Ignorable="d" Height="800" Width="1200">
+        mc:Ignorable="d" Height="400" Width="600">
     <Grid>
-        <StackPanel>
-            <TextBox Width="100" Height="30" HorizontalAlignment="Left"  Text="{Binding Item.Name}"></TextBox>
-            <Button Width="100px" HorizontalAlignment="Left" Command="{Binding SaveItemCommand}">Zapisz</Button>
+        <StackPanel Margin="220,67,-220,-67">
+            <Label Width="100" Height="20" HorizontalAlignment="Left"  Background="White" FontSize="9" Content="Produkt"/>
+            <Label Width="100" Height="20" HorizontalAlignment="Left"  Background="White" FontSize="9" Content="Cena"/>
+            <Label Width="100" Height="20" HorizontalAlignment="Left"  Background="White" FontSize="9" Content="Ilość"/>
+            <Button Width="100px" HorizontalAlignment="Left" Command="{Binding SaveItemCommand}" Content="Zapisz"/>
+        </StackPanel>
+        <StackPanel Margin="320,67,-220,-67">
+            <TextBox Width="100" Height="20" HorizontalAlignment="Left"  Text="{Binding Item.Name}" />
+            <TextBox Width="100" Height="20" HorizontalAlignment="Left"  Text="{Binding Item.Value}" />
+            <TextBox Width="100" Height="20" HorizontalAlignment="Left"  Text="{Binding Item.Quantity}" />
         </StackPanel>
     </Grid>
 

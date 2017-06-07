@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MercanteDiVenezia"
         xmlns:viewModels="clr-namespace:MercanteDiVenezia.ViewModels"
-        mc:Ignorable="d" Height="800" Width="1200">
+        mc:Ignorable="d" Height="400" Width="600">
     <Grid>
         <TabControl>
             <TabItem Header="Produkty na sprzedaż">

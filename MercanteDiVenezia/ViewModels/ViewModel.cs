@@ -1,15 +1,19 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace MercanteDiVenezia.ViewModels
 {
     public abstract class ViewModel //todo add uts
     {
+        private Dictionary<ViewModel, Window> _openedChildren = new Dictionary<ViewModel, Window>();
+
         protected void ShowDialog<TView>(ViewModel viewModel) where TView : UserControl, new()
         {
             var view = new TView();
             view.DataContext = viewModel;
             var win = CreateWindowHostingViewModel(view, true);
+            _openedChildren[viewModel] = win;
             win.ShowDialog();
 
         }
@@ -31,6 +35,12 @@ namespace MercanteDiVenezia.ViewModels
             }
 
             return hostWindow;
+        }
+
+        public void Close(ViewModel child)
+        {
+            _openedChildren[child].Close();
+            _openedChildren.Remove(child);
         }
     }
 }

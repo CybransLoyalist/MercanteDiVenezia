@@ -80,10 +80,31 @@
     <Compile Include="Migrations\201706041216251_init.Designer.cs">
       <DependentUpon>201706041216251_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706061617540_addingItemModelMigration.cs" />
+    <Compile Include="Migrations\201706061617540_addingItemModelMigration.Designer.cs">
+      <DependentUpon>201706061617540_addingItemModelMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706071845124_abc.cs" />
+    <Compile Include="Migrations\201706071845124_abc.Designer.cs">
+      <DependentUpon>201706071845124_abc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706071943078_addingNewFieldsToItemModel.cs" />
+    <Compile Include="Migrations\201706071943078_addingNewFieldsToItemModel.Designer.cs">
+      <DependentUpon>201706071943078_addingNewFieldsToItemModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706072050516_maska Hashima test2.cs" />
+    <Compile Include="Migrations\201706072050516_maska Hashima test2.Designer.cs">
+      <DependentUpon>201706072050516_maska Hashima test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706072051563_test3.cs" />
+    <Compile Include="Migrations\201706072051563_test3.Designer.cs">
+      <DependentUpon>201706072051563_test3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\MercanteDiVeneziaDbContext.cs" />
+    <Compile Include="Models\Model.cs" />
     <Compile Include="ViewModels\NewItemViewModel.cs" />
     <Compile Include="ViewModels\AdminViewModel.cs" />
     <Compile Include="ExtensionsAndHelpers\Command.cs" />
@@ -120,6 +141,21 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201706041216251_init.resx">
       <DependentUpon>201706041216251_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706061617540_addingItemModelMigration.resx">
+      <DependentUpon>201706061617540_addingItemModelMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706071845124_abc.resx">
+      <DependentUpon>201706071845124_abc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706071943078_addingNewFieldsToItemModel.resx">
+      <DependentUpon>201706071943078_addingNewFieldsToItemModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706072050516_maska Hashima test2.resx">
+      <DependentUpon>201706072050516_maska Hashima test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706072051563_test3.resx">
+      <DependentUpon>201706072051563_test3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
