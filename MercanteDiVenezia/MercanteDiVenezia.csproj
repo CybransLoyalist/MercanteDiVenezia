@@ -82,10 +82,15 @@
     <Compile Include="Migrations\201706030947127_addingStreetToCustomerMigration.Designer.cs">
       <DependentUpon>201706030947127_addingStreetToCustomerMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706061617540_addingItemModelMigration.cs" />
+    <Compile Include="Migrations\201706061617540_addingItemModelMigration.Designer.cs">
+      <DependentUpon>201706061617540_addingItemModelMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\MercanteDiVeneziaDbContext.cs" />
+    <Compile Include="Models\Model.cs" />
     <Compile Include="ViewModels\NewItemViewModel.cs" />
     <Compile Include="ViewModels\AdminViewModel.cs" />
     <Compile Include="ExtensionsAndHelpers\Command.cs" />
@@ -125,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706030947127_addingStreetToCustomerMigration.resx">
       <DependentUpon>201706030947127_addingStreetToCustomerMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706061617540_addingItemModelMigration.resx">
+      <DependentUpon>201706061617540_addingItemModelMigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

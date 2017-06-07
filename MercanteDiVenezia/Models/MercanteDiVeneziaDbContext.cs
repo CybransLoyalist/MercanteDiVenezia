@@ -10,5 +10,6 @@ namespace MercanteDiVenezia.Models
     class MercanteDiVeneziaDbContext : DbContext
     {
         public DbSet<Customer> Categories { get; set; }
+        public DbSet<Item> Items { get; set; }
     }
 }

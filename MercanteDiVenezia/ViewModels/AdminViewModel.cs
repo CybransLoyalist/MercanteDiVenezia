@@ -11,7 +11,7 @@ namespace MercanteDiVenezia.ViewModels
 
         private void AddItem(object obj)
         {
-            var vm1 = new NewItemViewModel();
+            var vm1 = new NewItemViewModel(this);
 
             ShowDialog<NewItemView>(vm1);
         }
