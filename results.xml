@@ -2,136 +2,166 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
   <Modules>
-    <Module skippedDueTo="Filter" hash="8C-EE-96-50-DC-F5-86-B6-94-CD-56-42-83-AA-50-4C-48-84-1B-D2">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:27:46.5737994Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="95-6F-A7-D9-CA-57-AB-DE-E6-29-67-E1-17-75-0C-A6-6A-E1-81-1E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
       <ModuleName>mscorlib</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="70-0A-8C-00-26-D7-8E-3A-41-3C-43-6D-01-3C-09-CC-C9-73-85-C0">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit3-console.exe</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.7203198Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit3-console.exe</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit3-console</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="9E-A8-D1-57-B6-3B-86-2E-8C-02-F2-54-6C-52-59-FE-F4-15-49-3E">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
-      <ModuleTime>2017-03-27T03:33:36Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="BA-4F-A1-35-97-44-A9-E0-41-2B-3D-42-2C-4C-AF-72-95-4A-4C-75">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
       <ModuleName>System</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="90-A5-CB-F1-B1-A1-C2-DE-2A-BF-0B-6F-28-E9-82-CA-41-44-09-3A">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.api.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.7013054Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit.engine.api</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="96-DE-EF-3F-02-DC-0C-37-07-3E-B9-1D-D2-EF-F9-A2-D3-8E-11-00">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.7083108Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit.engine</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="96-DE-EF-3F-02-DC-0C-37-07-3E-B9-1D-D2-EF-F9-A2-D3-8E-11-00">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.7083108Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit.engine</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="1A-0D-72-44-61-32-2D-54-98-83-81-C0-BD-43-07-DA-2F-35-5E-35">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:34:16Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="CC-B1-6B-7E-07-79-C2-06-C2-F8-66-21-A6-0D-24-64-C3-8F-0B-D8">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:27:46.5894255Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="AF-35-2B-3A-E0-8A-EC-A6-7E-DB-3B-17-A4-30-75-D9-31-4D-9F-2B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\Mono.Cecil.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.6682815Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>Mono.Cecil</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="3F-13-FA-77-77-83-38-BD-C5-E4-6C-2B-34-36-8E-07-BF-E7-9F-CA">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:34:16Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="58-7E-0C-8A-5F-09-F6-0F-15-50-1C-10-9F-E5-08-3A-E8-0A-D6-1B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Runtime.Remoting</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="E6-43-68-4E-1F-39-56-94-26-B3-14-DF-37-27-49-5B-21-24-D7-42">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:34:16Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Configuration</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="8C-EE-96-50-DC-F5-86-B6-94-CD-56-42-83-AA-50-4C-48-84-1B-D2">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:27:46.5737994Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="95-6F-A7-D9-CA-57-AB-DE-E6-29-67-E1-17-75-0C-A6-6A-E1-81-1E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
       <ModuleName>mscorlib</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="75-5F-1A-C1-0E-E6-C9-A3-EC-A1-F0-6E-89-B4-98-86-0B-A8-B2-AD">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit-agent.exe</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.6902967Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit-agent.exe</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit-agent</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="96-DE-EF-3F-02-DC-0C-37-07-3E-B9-1D-D2-EF-F9-A2-D3-8E-11-00">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.7083108Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit.engine</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="90-A5-CB-F1-B1-A1-C2-DE-2A-BF-0B-6F-28-E9-82-CA-41-44-09-3A">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.api.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.7013054Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>nunit.engine.api</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="9E-A8-D1-57-B6-3B-86-2E-8C-02-F2-54-6C-52-59-FE-F4-15-49-3E">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
-      <ModuleTime>2017-03-27T03:33:36Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="BA-4F-A1-35-97-44-A9-E0-41-2B-3D-42-2C-4C-AF-72-95-4A-4C-75">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
       <ModuleName>System</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="3F-13-FA-77-77-83-38-BD-C5-E4-6C-2B-34-36-8E-07-BF-E7-9F-CA">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:34:16Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="58-7E-0C-8A-5F-09-F6-0F-15-50-1C-10-9F-E5-08-3A-E8-0A-D6-1B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Runtime.Remoting</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="1A-0D-72-44-61-32-2D-54-98-83-81-C0-BD-43-07-DA-2F-35-5E-35">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:34:16Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="CC-B1-6B-7E-07-79-C2-06-C2-F8-66-21-A6-0D-24-64-C3-8F-0B-D8">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:27:46.5894255Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="AF-35-2B-3A-E0-8A-EC-A6-7E-DB-3B-17-A4-30-75-D9-31-4D-9F-2B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
-      <ModulePath>C:\Users\Marta\Source\Repos\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\Mono.Cecil.dll</ModulePath>
-      <ModuleTime>2017-06-04T09:28:02.6682815Z</ModuleTime>
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\packages\NUnit.ConsoleRunner.3.6.1\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2017-03-06T18:27:00Z</ModuleTime>
       <ModuleName>Mono.Cecil</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="E6-43-68-4E-1F-39-56-94-26-B3-14-DF-37-27-49-5B-21-24-D7-42">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
-      <ModuleTime>2016-11-30T06:34:16Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Configuration</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="B0-DF-76-80-5E-2D-D8-B8-16-6B-28-B9-76-D0-10-7B-20-A6-3A-D3">
-      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
-      <ModuleTime>2016-03-24T08:18:48.1014438Z</ModuleTime>
-      <ModuleName>mscorlib.resources</ModuleName>
+    <Module skippedDueTo="Filter" hash="E7-66-5A-18-D3-04-27-DC-E1-A7-6B-CE-09-1D-64-31-67-96-A3-8F">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2016-10-03T18:52:56Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-4F-A1-35-97-44-A9-E0-41-2B-3D-42-2C-4C-AF-72-95-4A-4C-75">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-A2-BD-63-F9-F2-57-08-E9-96-4F-80-7E-4F-54-31-E1-75-FD-E3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-35-2B-3A-E0-8A-EC-A6-7E-DB-3B-17-A4-30-75-D9-31-4D-9F-2B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:37:18Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-BA-B9-39-4D-AD-DD-6D-40-AA-81-64-24-30-E9-2B-E4-69-CA-9A">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\MercanteDiVeneziaTests.dll</ModulePath>
+      <ModuleTime>2017-06-08T20:01:49.5901923Z</ModuleTime>
+      <ModuleName>MercanteDiVeneziaTests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-5B-5D-6A-58-44-92-0A-2E-36-E3-6E-2C-9B-98-00-AD-15-22-E5">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
   </Modules>
