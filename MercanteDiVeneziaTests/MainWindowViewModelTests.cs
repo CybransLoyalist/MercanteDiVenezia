@@ -14,11 +14,5 @@ namespace MercanteDiVeneziaTests
         {
             _sut = new MainWindowViewModel();
         }
-
-        [Test]
-        public void Adding_3_To_5_ShallGet_8()
-        {
-            Assert.AreEqual(8, _sut.Add(3,5));
-        }
     }
 }
