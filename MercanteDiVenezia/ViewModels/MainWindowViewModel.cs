@@ -12,5 +12,7 @@
         {
             AdminViewModel = adminViewModel;
         }
+
+        //master
     }
 }
