@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Summary numSequencePoints="172" visitedSequencePoints="27" numBranchPoints="71" visitedBranchPoints="9" sequenceCoverage="15.70" branchCoverage="12.68" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" visitedClasses="3" numClasses="24" visitedMethods="5" numMethods="63" />
   <Modules>
     <Module skippedDueTo="Filter" hash="95-6F-A7-D9-CA-57-AB-DE-E6-29-67-E1-17-75-0C-A6-6A-E1-81-1E">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
@@ -152,9 +152,9 @@
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="79-BA-B9-39-4D-AD-DD-6D-40-AA-81-64-24-30-E9-2B-E4-69-CA-9A">
+    <Module skippedDueTo="Filter" hash="38-71-CF-4F-1B-54-33-47-A2-32-B2-96-7D-BA-01-86-8C-1D-E9-90">
       <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\MercanteDiVeneziaTests.dll</ModulePath>
-      <ModuleTime>2017-06-08T20:01:49.5901923Z</ModuleTime>
+      <ModuleTime>2017-06-09T20:16:30.3460237Z</ModuleTime>
       <ModuleName>MercanteDiVeneziaTests</ModuleName>
       <Classes />
     </Module>
@@ -162,6 +162,1587 @@
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
       <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
       <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FF-CF-91-97-09-DA-63-1A-3F-8A-73-25-CD-0E-1A-2E-B6-79-6D-08">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>PresentationFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8E-A4-A3-DD-F0-24-7A-31-21-94-F4-CA-95-73-E5-C4-A7-6F-2A-05">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_64\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:01:56Z</ModuleTime>
+      <ModuleName>PresentationCore</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-4F-04-76-5D-65-6E-C8-31-0D-80-D5-60-B6-9F-D0-F3-1A-1E-F1">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>WindowsBase</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7E-BB-44-B6-CA-BB-27-17-9A-5C-64-CA-38-98-08-87-87-F8-51-07">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll</ModulePath>
+      <ModuleTime>2017-03-26T19:08:56Z</ModuleTime>
+      <ModuleName>System.Xaml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-08-EB-BD-CC-C3-B4-1F-04-44-17-AD-EB-BD-51-16-EA-E1-DC-E6">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\Moq.dll</ModulePath>
+      <ModuleTime>2017-06-02T14:19:08Z</ModuleTime>
+      <ModuleName>Moq</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="42-60-02-7E-6D-28-2E-2C-31-42-0B-89-B7-37-83-E1-57-B2-88-26">
+      <Summary numSequencePoints="172" visitedSequencePoints="27" numBranchPoints="71" visitedBranchPoints="9" sequenceCoverage="15.70" branchCoverage="12.68" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" visitedClasses="3" numClasses="24" visitedMethods="5" numMethods="63" />
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\MercanteDiVenezia.exe</ModulePath>
+      <ModuleTime>2017-06-09T20:14:41.8318171Z</ModuleTime>
+      <ModuleName>MercanteDiVenezia</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\AdminView.xaml.cs" />
+        <File uid="2" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\obj\Debug\Views\AdminView.g.cs" />
+        <File uid="3" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\AdminView.xaml" />
+        <File uid="4" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\MainWindow.xaml.cs" />
+        <File uid="5" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\obj\Debug\Views\MainWindow.g.cs" />
+        <File uid="6" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\MainWindow.xaml" />
+        <File uid="7" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Properties\Settings.Designer.cs" />
+        <File uid="8" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\NewItemView.xaml.cs" />
+        <File uid="9" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\obj\Debug\Views\NewItemView.g.cs" />
+        <File uid="10" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\NewItemView.xaml" />
+        <File uid="11" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Views\App.xaml.cs" />
+        <File uid="12" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\obj\Debug\Views\App.g.cs" />
+        <File uid="14" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\ViewModels\NewItemViewModel.cs" />
+        <File uid="15" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\ViewModels\AdminViewModel.cs" />
+        <File uid="16" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\ViewModels\MainWindowViewModel.cs" />
+        <File uid="17" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\ViewModels\ViewModel.cs" />
+        <File uid="18" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\ViewModels\WindowForViewModelCreator.cs" />
+        <File uid="19" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Models\Customer.cs" />
+        <File uid="20" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Models\Item.cs" />
+        <File uid="21" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Models\MercanteDiVeneziaDbContext.cs" />
+        <File uid="22" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Models\Model.cs" />
+        <File uid="23" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706041216251_init.cs" />
+        <File uid="24" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706041216251_init.Designer.cs" />
+        <File uid="26" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706061617540_addingItemModelMigration.cs" />
+        <File uid="27" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706061617540_addingItemModelMigration.Designer.cs" />
+        <File uid="29" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706071845124_abc.cs" />
+        <File uid="30" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706071845124_abc.Designer.cs" />
+        <File uid="31" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706071943078_addingNewFieldsToItemModel.cs" />
+        <File uid="32" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706071943078_addingNewFieldsToItemModel.Designer.cs" />
+        <File uid="34" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706072050516_maska Hashima test2.cs" />
+        <File uid="35" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706072050516_maska Hashima test2.Designer.cs" />
+        <File uid="36" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706072051563_test3.cs" />
+        <File uid="37" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\201706072051563_test3.Designer.cs" />
+        <File uid="38" fullPath="C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVenezia\Migrations\Configuration.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="16" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;&gt;f__AnonymousType0`5</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>&lt;Id&gt;j__TPar &lt;&gt;f__AnonymousType0`5::get_Id()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>&lt;FirstName&gt;j__TPar &lt;&gt;f__AnonymousType0`5::get_FirstName()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="2" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>&lt;LastName&gt;j__TPar &lt;&gt;f__AnonymousType0`5::get_LastName()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="3" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>&lt;Street&gt;j__TPar &lt;&gt;f__AnonymousType0`5::get_Street()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>&lt;HomeNumber&gt;j__TPar &lt;&gt;f__AnonymousType0`5::get_HomeNumber()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="5" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType0`5::.ctor(&lt;Id&gt;j__TPar,&lt;FirstName&gt;j__TPar,&lt;LastName&gt;j__TPar,&lt;Street&gt;j__TPar,&lt;HomeNumber&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="6" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType0`5::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="7" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType0`5::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="8" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="16" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="16" minCyclomaticComplexity="16" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType0`5::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="9" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;&gt;f__AnonymousType1`2</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>&lt;Id&gt;j__TPar &lt;&gt;f__AnonymousType1`2::get_Id()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="10" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>&lt;Name&gt;j__TPar &lt;&gt;f__AnonymousType1`2::get_Name()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="11" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType1`2::.ctor(&lt;Id&gt;j__TPar,&lt;Name&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="12" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType1`2::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="13" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType1`2::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="14" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="7" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType1`2::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="15" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.AdminView</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.AdminView::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" offset="7" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" offset="8" sl="22" sc="13" el="22" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" offset="15" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="16" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="27" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.AdminView::InitializeComponent()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.AdminView::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="20" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.MainWindow</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.MainWindow::.ctor()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="28" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="22" ordinal="1" offset="7" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" offset="8" sl="25" sc="13" el="25" ec="35" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="24" ordinal="3" offset="15" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="21" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="28" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.MainWindow::InitializeComponent()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.MainWindow::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="25" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Attribute">
+          <FullName>MercanteDiVenezia.Properties.Resources</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>MercanteDiVenezia.Properties.Settings</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663322</MetadataToken>
+              <Name>MercanteDiVenezia.Properties.Settings MercanteDiVenezia.Properties.Settings::get_Default()</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Properties.Settings::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="26" ordinal="0" offset="0" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Properties.Settings::.cctor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.Views.NewItemView</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.NewItemView::.ctor()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="29" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="28" ordinal="1" offset="7" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="29" ordinal="2" offset="8" sl="9" sc="13" el="9" ec="35" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="30" ordinal="3" offset="15" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="27" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="29" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.NewItemView::InitializeComponent()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.NewItemView::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="31" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.Views.App</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.App::OnStartup(System.Windows.StartupEventArgs)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="32" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="33" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="96" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="34" ordinal="2" offset="24" sl="12" sc="13" el="12" ec="31" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="35" ordinal="3" offset="31" sl="13" sc="13" el="13" ec="31" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="36" ordinal="4" offset="39" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="32" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.App::Main()</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.App::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="37" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.Views.ApplicationFactory</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>MercanteDiVenezia.ViewModels.MainWindowViewModel MercanteDiVenezia.Views.ApplicationFactory::Build()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="73" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="40" ordinal="2" offset="7" sl="22" sc="13" el="22" ec="77" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="41" ordinal="3" offset="13" sl="24" sc="13" el="30" ec="49" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="42" ordinal="4" offset="35" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="38" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Views.ApplicationFactory::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="43" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="4" numBranchPoints="6" visitedBranchPoints="1" sequenceCoverage="25" branchCoverage="16.67" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="6" />
+          <FullName>MercanteDiVenezia.ViewModels.NewItemViewModel</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>MercanteDiVenezia.Models.Item MercanteDiVenezia.ViewModels.NewItemViewModel::get_Item()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" offset="0" sl="17" sc="28" el="17" ec="32" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="44" ordinal="0" offset="0" sl="17" sc="28" el="17" ec="32" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.NewItemViewModel::set_Item(MercanteDiVenezia.Models.Item)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="45" ordinal="0" offset="0" sl="17" sc="33" el="17" ec="37" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="45" ordinal="0" offset="0" sl="17" sc="33" el="17" ec="37" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Windows.Input.ICommand MercanteDiVenezia.ViewModels.NewItemViewModel::get_SaveItemCommand()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="46" ordinal="0" offset="0" sl="19" sc="44" el="19" ec="78" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="46" ordinal="0" offset="0" sl="19" sc="44" el="19" ec="78" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.NewItemViewModel::.ctor(MercanteDiVenezia.ViewModels.WindowOperationsHandler,MercanteDiVenezia.ViewModels.WindowForViewModelCreator)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="47" ordinal="0" offset="0" sl="17" sc="42" el="17" ec="52" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="5" uspid="48" ordinal="1" offset="11" sl="13" sc="68" el="13" ec="124" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="5" uspid="49" ordinal="2" offset="20" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="5" uspid="50" ordinal="3" offset="21" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="47" ordinal="0" offset="0" sl="17" sc="42" el="17" ec="52" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.NewItemViewModel::SaveItem(System.Object)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="51" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="52" ordinal="1" offset="1" sl="23" sc="13" el="23" ec="79" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="53" ordinal="2" offset="7" sl="24" sc="13" el="24" ec="56" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="54" ordinal="3" offset="25" sl="25" sc="13" el="25" ec="54" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="55" ordinal="4" offset="32" sl="26" sc="13" el="26" ec="27" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="56" ordinal="5" offset="39" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="51" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Boolean MercanteDiVenezia.ViewModels.NewItemViewModel::CanSaveItem(System.Object)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="57" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="58" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="25" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="59" ordinal="2" offset="5" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="57" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="4" numBranchPoints="4" visitedBranchPoints="1" sequenceCoverage="33.33" branchCoverage="25" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="4" />
+          <FullName>MercanteDiVenezia.ViewModels.AdminViewModel</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.Windows.Input.ICommand MercanteDiVenezia.ViewModels.AdminViewModel::get_AddItemCommand()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="60" ordinal="0" offset="0" sl="18" sc="43" el="18" ec="75" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="60" ordinal="0" offset="0" sl="18" sc="43" el="18" ec="75" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.AdminViewModel::.ctor(MercanteDiVenezia.ViewModels.NewItemViewModel,MercanteDiVenezia.ViewModels.WindowOperationsHandler,MercanteDiVenezia.ViewModels.WindowForViewModelCreator)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="61" ordinal="0" offset="0" sl="13" sc="68" el="13" ec="124" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="5" uspid="62" ordinal="1" offset="9" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="5" uspid="63" ordinal="2" offset="10" sl="15" sc="13" el="15" ec="50" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="5" uspid="64" ordinal="3" offset="17" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="61" ordinal="0" offset="0" sl="13" sc="68" el="13" ec="124" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.AdminViewModel::AddItem(System.Object)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="65" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="66" ordinal="1" offset="1" sl="21" sc="10" el="21" ec="11" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="67" ordinal="2" offset="2" sl="22" sc="13" el="22" ec="57" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="68" ordinal="3" offset="14" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="65" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Boolean MercanteDiVenezia.ViewModels.AdminViewModel::CanAddItem(System.Object)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="69" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="70" ordinal="1" offset="1" sl="27" sc="13" el="27" ec="25" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="71" ordinal="2" offset="5" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="69" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="15" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.ViewModels.MainWindowViewModel</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>MercanteDiVenezia.ViewModels.AdminViewModel MercanteDiVenezia.ViewModels.MainWindowViewModel::get_AdminViewModel()</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="72" ordinal="0" offset="0" sl="5" sc="48" el="5" ec="52" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="72" ordinal="0" offset="0" sl="5" sc="48" el="5" ec="52" bec="0" bev="0" fileid="16" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663344</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.MainWindowViewModel::.ctor(MercanteDiVenezia.ViewModels.AdminViewModel)</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="73" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="66" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="74" ordinal="1" offset="7" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="75" ordinal="2" offset="8" sl="9" sc="13" el="9" ec="45" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="0" uspid="76" ordinal="3" offset="15" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="73" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="66" bec="0" bev="0" fileid="16" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>MercanteDiVenezia.ViewModels.ViewModel</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.ViewModel::.ctor(MercanteDiVenezia.ViewModels.WindowOperationsHandler,MercanteDiVenezia.ViewModels.WindowForViewModelCreator)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="77" ordinal="0" offset="0" sl="14" sc="9" el="16" ec="65" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="78" ordinal="1" offset="7" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="79" ordinal="2" offset="8" sl="18" sc="13" el="18" ec="64" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="80" ordinal="3" offset="15" sl="19" sc="13" el="19" ec="68" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="81" ordinal="4" offset="22" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="10" uspid="77" ordinal="0" offset="0" sl="14" sc="9" el="16" ec="65" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.ViewModel::Show()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="82" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="5" uspid="83" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="33" bec="2" bev="2" fileid="17" />
+                <SequencePoint vc="1" uspid="84" ordinal="2" offset="14" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="85" ordinal="3" offset="15" sl="26" sc="17" el="26" ec="64" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="4" uspid="86" ordinal="4" offset="26" sl="28" sc="13" el="28" ec="70" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="4" uspid="87" ordinal="5" offset="45" sl="29" sc="13" el="29" ec="52" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="4" uspid="88" ordinal="6" offset="63" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="89" ordinal="0" offset="12" sl="24" path="0" offsetend="14" fileid="17" />
+                <BranchPoint vc="4" uspid="90" ordinal="1" offset="12" sl="24" path="1" offsetend="26" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="82" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663347</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.ViewModel::CloseWindow()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="91" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="92" ordinal="1" offset="1" sl="34" sc="13" el="34" ec="33" bec="2" bev="2" fileid="17" />
+                <SequencePoint vc="1" uspid="93" ordinal="2" offset="14" sl="35" sc="13" el="35" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="94" ordinal="3" offset="15" sl="36" sc="17" el="36" ec="57" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="95" ordinal="4" offset="33" sl="37" sc="17" el="37" ec="32" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="96" ordinal="5" offset="40" sl="38" sc="13" el="38" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="97" ordinal="6" offset="41" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="98" ordinal="0" offset="12" sl="34" path="0" offsetend="14" fileid="17" />
+                <BranchPoint vc="1" uspid="99" ordinal="1" offset="12" sl="34" path="1" offsetend="41" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="91" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.ViewModels.WindowForViewModelCreator</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Windows.Window MercanteDiVenezia.ViewModels.WindowForViewModelCreator::Create(System.Object,System.Boolean)</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="100" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="101" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="71" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="102" ordinal="2" offset="20" sl="12" sc="13" el="12" ec="74" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="103" ordinal="3" offset="39" sl="13" sc="13" el="13" ec="45" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="104" ordinal="4" offset="45" sl="14" sc="13" el="14" ec="47" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="105" ordinal="5" offset="58" sl="15" sc="13" el="19" ec="15" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="106" ordinal="6" offset="80" sl="21" sc="13" el="21" ec="31" bec="2" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="107" ordinal="7" offset="87" sl="22" sc="13" el="22" ec="14" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="108" ordinal="8" offset="88" sl="23" sc="17" el="23" ec="73" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="109" ordinal="9" offset="96" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="110" ordinal="10" offset="97" sl="26" sc="13" el="26" ec="31" bec="0" bev="0" fileid="18" />
+                <SequencePoint vc="0" uspid="111" ordinal="11" offset="102" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="112" ordinal="0" offset="85" sl="21" path="0" offsetend="87" fileid="18" />
+                <BranchPoint vc="0" uspid="113" ordinal="1" offset="85" sl="21" path="1" offsetend="97" fileid="18" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="100" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.ViewModels.WindowForViewModelCreator::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="114" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Attribute">
+          <FullName>MercanteDiVenezia.ViewModels.WindowOperationsHandler</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="10" />
+          <FullName>MercanteDiVenezia.Models.Customer</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Int32 MercanteDiVenezia.Models.Customer::get_Id()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="115" ordinal="0" offset="0" sl="13" sc="25" el="13" ec="29" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="115" ordinal="0" offset="0" sl="13" sc="25" el="13" ec="29" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Customer::set_Id(System.Int32)</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="116" ordinal="0" offset="0" sl="13" sc="30" el="13" ec="34" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="116" ordinal="0" offset="0" sl="13" sc="30" el="13" ec="34" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Models.Customer::get_FirstName()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="117" ordinal="0" offset="0" sl="16" sc="35" el="16" ec="39" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="117" ordinal="0" offset="0" sl="16" sc="35" el="16" ec="39" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663356</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Customer::set_FirstName(System.String)</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="118" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="44" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="118" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="44" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663357</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Models.Customer::get_LastName()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="119" ordinal="0" offset="0" sl="19" sc="34" el="19" ec="38" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="119" ordinal="0" offset="0" sl="19" sc="34" el="19" ec="38" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663358</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Customer::set_LastName(System.String)</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="120" ordinal="0" offset="0" sl="19" sc="39" el="19" ec="43" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="120" ordinal="0" offset="0" sl="19" sc="39" el="19" ec="43" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663359</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Models.Customer::get_Street()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="121" ordinal="0" offset="0" sl="22" sc="32" el="22" ec="36" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="121" ordinal="0" offset="0" sl="22" sc="32" el="22" ec="36" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663360</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Customer::set_Street(System.String)</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="122" ordinal="0" offset="0" sl="22" sc="37" el="22" ec="41" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="122" ordinal="0" offset="0" sl="22" sc="37" el="22" ec="41" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663361</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Models.Customer::get_HomeNumber()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="123" ordinal="0" offset="0" sl="25" sc="36" el="25" ec="40" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="123" ordinal="0" offset="0" sl="25" sc="36" el="25" ec="40" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663362</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Customer::set_HomeNumber(System.String)</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="124" ordinal="0" offset="0" sl="25" sc="41" el="25" ec="45" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="124" ordinal="0" offset="0" sl="25" sc="41" el="25" ec="45" bec="0" bev="0" fileid="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663363</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Customer::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="125" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="23" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="8" />
+          <FullName>MercanteDiVenezia.Models.Item</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663364</MetadataToken>
+              <Name>System.Int32 MercanteDiVenezia.Models.Item::get_Id()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="126" ordinal="0" offset="0" sl="13" sc="25" el="13" ec="29" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="126" ordinal="0" offset="0" sl="13" sc="25" el="13" ec="29" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663365</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Item::set_Id(System.Int32)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="127" ordinal="0" offset="0" sl="13" sc="30" el="13" ec="34" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="127" ordinal="0" offset="0" sl="13" sc="30" el="13" ec="34" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663366</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Models.Item::get_Name()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="128" ordinal="0" offset="0" sl="18" sc="17" el="18" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="129" ordinal="1" offset="1" sl="18" sc="19" el="18" ec="32" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="130" ordinal="2" offset="10" sl="18" sc="33" el="18" ec="34" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="128" ordinal="0" offset="0" sl="18" sc="17" el="18" ec="18" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663367</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Item::set_Name(System.String)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="131" ordinal="0" offset="0" sl="20" sc="13" el="20" ec="14" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="132" ordinal="1" offset="1" sl="21" sc="17" el="21" ec="31" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="133" ordinal="2" offset="8" sl="22" sc="17" el="22" ec="49" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="134" ordinal="3" offset="20" sl="23" sc="13" el="23" ec="14" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="131" ordinal="0" offset="0" sl="20" sc="13" el="20" ec="14" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663368</MetadataToken>
+              <Name>System.Decimal MercanteDiVenezia.Models.Item::get_Value()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="135" ordinal="0" offset="0" sl="29" sc="17" el="29" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="136" ordinal="1" offset="1" sl="29" sc="19" el="29" ec="33" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="137" ordinal="2" offset="10" sl="29" sc="34" el="29" ec="35" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="135" ordinal="0" offset="0" sl="29" sc="17" el="29" ec="18" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663369</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Item::set_Value(System.Decimal)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="138" ordinal="0" offset="0" sl="31" sc="13" el="31" ec="14" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="139" ordinal="1" offset="1" sl="32" sc="17" el="32" ec="32" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="140" ordinal="2" offset="8" sl="33" sc="17" el="33" ec="50" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="141" ordinal="3" offset="20" sl="34" sc="13" el="34" ec="14" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="138" ordinal="0" offset="0" sl="31" sc="13" el="31" ec="14" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663370</MetadataToken>
+              <Name>System.Int32 MercanteDiVenezia.Models.Item::get_Quantity()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="142" ordinal="0" offset="0" sl="40" sc="17" el="40" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="143" ordinal="1" offset="1" sl="40" sc="19" el="40" ec="36" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="144" ordinal="2" offset="10" sl="40" sc="37" el="40" ec="38" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="142" ordinal="0" offset="0" sl="40" sc="17" el="40" ec="18" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663371</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Item::set_Quantity(System.Int32)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="145" ordinal="0" offset="0" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="146" ordinal="1" offset="1" sl="43" sc="17" el="43" ec="35" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="147" ordinal="2" offset="8" sl="44" sc="17" el="44" ec="53" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="148" ordinal="3" offset="20" sl="45" sc="13" el="45" ec="14" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="145" ordinal="0" offset="0" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663372</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Item::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="149" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>MercanteDiVenezia.Models.MercanteDiVeneziaDbContext</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663374</MetadataToken>
+              <Name>System.Data.Entity.DbSet`1&lt;MercanteDiVenezia.Models.Customer&gt; MercanteDiVenezia.Models.MercanteDiVeneziaDbContext::get_Categories()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="150" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="49" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="150" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="49" bec="0" bev="0" fileid="21" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663375</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.MercanteDiVeneziaDbContext::set_Categories(System.Data.Entity.DbSet`1&lt;MercanteDiVenezia.Models.Customer&gt;)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="151" ordinal="0" offset="0" sl="16" sc="50" el="16" ec="54" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="151" ordinal="0" offset="0" sl="16" sc="50" el="16" ec="54" bec="0" bev="0" fileid="21" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663376</MetadataToken>
+              <Name>System.Data.Entity.DbSet`1&lt;MercanteDiVenezia.Models.Item&gt; MercanteDiVenezia.Models.MercanteDiVeneziaDbContext::get_Items()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="152" ordinal="0" offset="0" sl="18" sc="36" el="18" ec="40" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="152" ordinal="0" offset="0" sl="18" sc="36" el="18" ec="40" bec="0" bev="0" fileid="21" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663377</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.MercanteDiVeneziaDbContext::set_Items(System.Data.Entity.DbSet`1&lt;MercanteDiVenezia.Models.Item&gt;)</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="153" ordinal="0" offset="0" sl="18" sc="41" el="18" ec="45" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="153" ordinal="0" offset="0" sl="18" sc="41" el="18" ec="45" bec="0" bev="0" fileid="21" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663373</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.MercanteDiVeneziaDbContext::.ctor()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="154" ordinal="0" offset="0" sl="12" sc="47" el="12" ec="53" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="155" ordinal="1" offset="7" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="156" ordinal="2" offset="8" sl="14" sc="13" el="14" ec="126" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="157" ordinal="3" offset="19" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="154" ordinal="0" offset="0" sl="12" sc="47" el="12" ec="53" bec="0" bev="0" fileid="21" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.Models.Model</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663378</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Model::add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="158" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663379</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Model::remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="159" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663380</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Model::OnPropertyChanged(System.String)</Name>
+              <FileRef uid="22" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="160" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="161" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="87" bec="2" bev="0" fileid="22" />
+                <SequencePoint vc="0" uspid="162" ordinal="2" offset="26" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="22" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="163" ordinal="0" offset="8" sl="10" path="0" offsetend="10" fileid="22" />
+                <BranchPoint vc="0" uspid="164" ordinal="1" offset="8" sl="10" path="1" offsetend="13" fileid="22" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="160" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="22" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663381</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Models.Model::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="165" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.init</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663384</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.init::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</Name>
+              <FileRef uid="24" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663385</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.init::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</Name>
+              <FileRef uid="24" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663386</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.init::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</Name>
+              <FileRef uid="24" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663382</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.init::Up()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="166" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="167" ordinal="1" offset="1" sl="10" sc="13" el="20" ec="40" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="168" ordinal="2" offset="115" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="166" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="23" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663383</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.init::Down()</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="171" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="172" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="40" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="173" ordinal="2" offset="14" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="171" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="23" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663387</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.init::.ctor()</Name>
+              <FileRef uid="24" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.Migrations.init/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663426</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.init/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="174" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663427</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.init/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="175" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663428</MetadataToken>
+              <Name>&lt;&gt;f__AnonymousType0`5&lt;System.Data.Entity.Migrations.Model.ColumnModel,System.Data.Entity.Migrations.Model.ColumnModel,System.Data.Entity.Migrations.Model.ColumnModel,System.Data.Entity.Migrations.Model.ColumnModel,System.Data.Entity.Migrations.Model.ColumnModel&gt; MercanteDiVenezia.Migrations.init/&lt;&gt;c::&lt;Up&gt;b__0_0(System.Data.Entity.Migrations.Builders.ColumnBuilder)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="176" ordinal="0" offset="0" sl="12" sc="22" el="19" ec="22" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="176" ordinal="0" offset="0" sl="12" sc="22" el="19" ec="22" bec="0" bev="0" fileid="23" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.addingItemModelMigration</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663390</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.addingItemModelMigration::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</Name>
+              <FileRef uid="27" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663391</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.addingItemModelMigration::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</Name>
+              <FileRef uid="27" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663392</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.addingItemModelMigration::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</Name>
+              <FileRef uid="27" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663388</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingItemModelMigration::Up()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="177" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="0" uspid="178" ordinal="1" offset="1" sl="10" sc="13" el="17" ec="40" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="0" uspid="179" ordinal="2" offset="115" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="177" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663389</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingItemModelMigration::Down()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="182" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="0" uspid="183" ordinal="1" offset="1" sl="23" sc="13" el="23" ec="36" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="0" uspid="184" ordinal="2" offset="14" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="182" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663393</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingItemModelMigration::.ctor()</Name>
+              <FileRef uid="27" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MercanteDiVenezia.Migrations.addingItemModelMigration/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663429</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingItemModelMigration/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="185" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663430</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingItemModelMigration/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="186" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663431</MetadataToken>
+              <Name>&lt;&gt;f__AnonymousType1`2&lt;System.Data.Entity.Migrations.Model.ColumnModel,System.Data.Entity.Migrations.Model.ColumnModel&gt; MercanteDiVenezia.Migrations.addingItemModelMigration/&lt;&gt;c::&lt;Up&gt;b__0_0(System.Data.Entity.Migrations.Builders.ColumnBuilder)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="187" ordinal="0" offset="0" sl="12" sc="22" el="16" ec="22" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="187" ordinal="0" offset="0" sl="12" sc="22" el="16" ec="22" bec="0" bev="0" fileid="26" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.abc</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663396</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.abc::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</Name>
+              <FileRef uid="30" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663397</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.abc::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</Name>
+              <FileRef uid="30" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663398</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.abc::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</Name>
+              <FileRef uid="30" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663394</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.abc::Up()</Name>
+              <FileRef uid="29" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="188" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="189" ordinal="1" offset="1" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="29" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="188" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="29" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663395</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.abc::Down()</Name>
+              <FileRef uid="29" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="190" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="0" uspid="191" ordinal="1" offset="1" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="29" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="190" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="29" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663399</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.abc::.ctor()</Name>
+              <FileRef uid="30" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.addingNewFieldsToItemModel</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663402</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.addingNewFieldsToItemModel::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</Name>
+              <FileRef uid="32" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663403</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.addingNewFieldsToItemModel::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</Name>
+              <FileRef uid="32" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663404</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.addingNewFieldsToItemModel::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</Name>
+              <FileRef uid="32" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663400</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingNewFieldsToItemModel::Up()</Name>
+              <FileRef uid="31" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="192" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="31" />
+                <SequencePoint vc="0" uspid="193" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="103" bec="0" bev="0" fileid="31" />
+                <SequencePoint vc="0" uspid="194" ordinal="2" offset="50" sl="11" sc="13" el="11" ec="77" bec="0" bev="0" fileid="31" />
+                <SequencePoint vc="0" uspid="195" ordinal="3" offset="99" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="31" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="192" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="31" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663401</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingNewFieldsToItemModel::Down()</Name>
+              <FileRef uid="31" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="200" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="31" />
+                <SequencePoint vc="0" uspid="201" ordinal="1" offset="1" sl="16" sc="13" el="16" ec="49" bec="0" bev="0" fileid="31" />
+                <SequencePoint vc="0" uspid="202" ordinal="2" offset="19" sl="17" sc="13" el="17" ec="46" bec="0" bev="0" fileid="31" />
+                <SequencePoint vc="0" uspid="203" ordinal="3" offset="37" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="31" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="200" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="31" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663405</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingNewFieldsToItemModel::.ctor()</Name>
+              <FileRef uid="32" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.addingNewFieldsToItemModel/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663432</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingNewFieldsToItemModel/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="204" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663433</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.addingNewFieldsToItemModel/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="205" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663434</MetadataToken>
+              <Name>System.Data.Entity.Migrations.Model.ColumnModel MercanteDiVenezia.Migrations.addingNewFieldsToItemModel/&lt;&gt;c::&lt;Up&gt;b__0_0(System.Data.Entity.Migrations.Builders.ColumnBuilder)</Name>
+              <FileRef uid="31" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="206" ordinal="0" offset="0" sl="10" sc="50" el="10" ec="101" bec="0" bev="0" fileid="31" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="206" ordinal="0" offset="0" sl="10" sc="50" el="10" ec="101" bec="0" bev="0" fileid="31" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663435</MetadataToken>
+              <Name>System.Data.Entity.Migrations.Model.ColumnModel MercanteDiVenezia.Migrations.addingNewFieldsToItemModel/&lt;&gt;c::&lt;Up&gt;b__0_1(System.Data.Entity.Migrations.Builders.ColumnBuilder)</Name>
+              <FileRef uid="31" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="207" ordinal="0" offset="0" sl="11" sc="53" el="11" ec="75" bec="0" bev="0" fileid="31" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="207" ordinal="0" offset="0" sl="11" sc="53" el="11" ec="75" bec="0" bev="0" fileid="31" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.maskaHashimatest2</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663408</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.maskaHashimatest2::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</Name>
+              <FileRef uid="35" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663409</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.maskaHashimatest2::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</Name>
+              <FileRef uid="35" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663410</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.maskaHashimatest2::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</Name>
+              <FileRef uid="35" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663406</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.maskaHashimatest2::Up()</Name>
+              <FileRef uid="34" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="208" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="0" uspid="209" ordinal="1" offset="1" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="34" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="208" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="34" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663407</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.maskaHashimatest2::Down()</Name>
+              <FileRef uid="34" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="210" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="34" />
+                <SequencePoint vc="0" uspid="211" ordinal="1" offset="1" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="34" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="210" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="34" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663411</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.maskaHashimatest2::.ctor()</Name>
+              <FileRef uid="35" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.test3</FullName>
+          <Methods>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663414</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.test3::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</Name>
+              <FileRef uid="37" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663415</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.test3::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</Name>
+              <FileRef uid="37" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663416</MetadataToken>
+              <Name>System.String MercanteDiVenezia.Migrations.test3::System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</Name>
+              <FileRef uid="37" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663412</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.test3::Up()</Name>
+              <FileRef uid="36" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="212" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="36" />
+                <SequencePoint vc="0" uspid="213" ordinal="1" offset="1" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="36" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="212" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="36" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663413</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.test3::Down()</Name>
+              <FileRef uid="36" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="214" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="36" />
+                <SequencePoint vc="0" uspid="215" ordinal="1" offset="1" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="36" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="214" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="36" />
+            </Method>
+            <Method skippedDueTo="File" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663417</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.test3::.ctor()</Name>
+              <FileRef uid="37" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>MercanteDiVenezia.Migrations.Configuration</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663418</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.Configuration::.ctor()</Name>
+              <FileRef uid="38" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="216" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="31" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="0" uspid="217" ordinal="1" offset="7" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="0" uspid="218" ordinal="2" offset="8" sl="12" sc="13" el="12" ec="48" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="0" uspid="219" ordinal="3" offset="16" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="38" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="216" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="31" bec="0" bev="0" fileid="38" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663419</MetadataToken>
+              <Name>System.Void MercanteDiVenezia.Migrations.Configuration::Seed(MercanteDiVenezia.Models.MercanteDiVeneziaDbContext)</Name>
+              <FileRef uid="38" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="220" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="0" uspid="221" ordinal="1" offset="1" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="38" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="220" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="38" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Attribute">
+          <FullName>MercanteDiVenezia.ExtensionsAndHelpers.ExcludeFromCoverageAttribute</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Attribute">
+          <FullName>MercanteDiVenezia.ExtensionsAndHelpers.Command</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-B9-CA-42-36-B5-7C-2F-28-04-EF-71-75-4D-D7-DB-0B-9E-9A-C3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-15-E2-C0-27-32-8D-74-3D-B9-A5-59-A0-CC-99-2B-50-0E-C2-EA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll</ModulePath>
+      <ModuleTime>2016-07-14T12:43:42Z</ModuleTime>
+      <ModuleName>UIAutomationTypes</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A3-09-9D-C9-2F-8D-F7-55-B0-7D-76-E4-D8-07-6F-8D-70-0A-35-14">
+      <ModulePath>C:\Users\CybransLoyalist\Documents\Visual Studio 2017\Projects\MercanteDiVenezia\MercanteDiVeneziaTests\bin\Debug\Castle.Core.dll</ModulePath>
+      <ModuleTime>2017-01-24T16:26:06Z</ModuleTime>
+      <ModuleName>Castle.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
       <Classes />
     </Module>
   </Modules>

@@ -8,6 +8,12 @@ namespace MercanteDiVenezia.ViewModels
 {
     public class NewItemViewModel : ViewModel
     {
+        public NewItemViewModel(
+            WindowOperationsHandler windowOperationsHandler,
+            WindowForViewModelCreator windowForViewModelCreator) : base(windowOperationsHandler, windowForViewModelCreator)
+        {
+        }
+
         public Item Item { get; set; } = new Item();
 
         public ICommand SaveItemCommand => new Command(SaveItem, CanSaveItem);

@@ -1,43 +1,41 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
 namespace MercanteDiVenezia.ViewModels
 {
-    public abstract class ViewModel //todo add uts
+    public abstract class ViewModel
     {
         private Window _window;
+        private readonly WindowOperationsHandler _windowOperationsHandler;
+        private readonly WindowForViewModelCreator _windowForViewModelCreator;
+
+        protected ViewModel(
+            WindowOperationsHandler windowOperationsHandler,
+            WindowForViewModelCreator windowForViewModelCreator)
+        {
+            _windowOperationsHandler = windowOperationsHandler;
+            _windowForViewModelCreator = windowForViewModelCreator;
+        }
 
         public void Show<TView>() where TView : UserControl, new()
         {
-            var view = new TView {DataContext = this};
-            _window = CreateWindowHostingViewModel(view, true);
-            _window.ShowDialog();
+            if (_window != null)
+            {
+                throw new Exception("Window is already open!");
+            }
+            _window = _windowForViewModelCreator.Create<TView>(this);
+            _windowOperationsHandler.Show(_window);
         }
 
         public void CloseWindow()
         {
-            _window.Close();
-            _window = null;
-        }
-
-        private Window CreateWindowHostingViewModel(object viewModel, bool sizeToContent)
-        {
-            var contentUi = new ContentControl { Content = viewModel };
-            var dockPanel = new DockPanel();
-            dockPanel.Children.Add(contentUi);
-            var hostWindow = new Window
+            if (_window != null)
             {
-                IsEnabled = true,
-                Content = dockPanel
-            };
-
-            if (sizeToContent)
-            {
-                hostWindow.SizeToContent = SizeToContent.WidthAndHeight;
+                _windowOperationsHandler.Close(_window);
+                _window = null;
             }
-
-            return hostWindow;
         }
     }
 }

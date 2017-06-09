@@ -7,9 +7,6 @@
         xmlns:viewModels="clr-namespace:MercanteDiVenezia.ViewModels"
         mc:Ignorable="d"
         Title="Il Mercante Di Venezia" Height="400" Width="600">
-    <Window.DataContext>
-        <viewModels:MainWindowViewModel />
-    </Window.DataContext>
     <Grid>
         <TabControl >
             <TabItem Header="O nas">
