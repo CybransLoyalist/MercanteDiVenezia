@@ -3,13 +3,11 @@ using System.Windows.Controls;
 
 namespace MercanteDiVenezia.ViewModels
 {
-    public class WindowForViewModelCreator //todo add uts
+    public class WindowCreator
     {
-        public virtual Window Create<TView>(object dataContext, bool sizeToContent = true) where TView : UserControl, new()
+        public virtual Window CreateFor(object view, bool sizeToContent = true)
         {
-            var userControl = new TView { DataContext = dataContext };
-
-            var contentUi = new ContentControl { Content = userControl };
+            var contentUi = new ContentControl { Content = view };
             var dockPanel = new DockPanel();
             dockPanel.Children.Add(contentUi);
             var hostWindow = new Window
