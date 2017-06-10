@@ -1,4 +1,6 @@
-﻿using MercanteDiVenezia.ViewModels;
+﻿using MercanteDiVenezia.Models;
+using MercanteDiVenezia.Models.Repositories;
+using MercanteDiVenezia.ViewModels;
 
 namespace MercanteDiVenezia.Views
 {
@@ -12,7 +14,8 @@ namespace MercanteDiVenezia.Views
                     new WindowOperationsHandler(),
                     new NewItemViewModel(
                         new WindowCreator(),
-                        new WindowOperationsHandler())));
+                        new WindowOperationsHandler(),
+                        new ItemsRepository(new MercanteDiVeneziaDbContext()))));
         }
     }
 }

@@ -1,20 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
 
 namespace MercanteDiVenezia.Models
 {
-    class MercanteDiVeneziaDbContext : DbContext
+    public class MercanteDiVeneziaDbContext : DbContext
     {
         public MercanteDiVeneziaDbContext() : base()
         {
             Database.SetInitializer<MercanteDiVeneziaDbContext>(new CreateDatabaseIfNotExists<MercanteDiVeneziaDbContext>());
         }
-        public DbSet<Customer> Categories { get; set; }
+        public virtual DbSet<Customer> Categories { get; set; }
+                
+        public virtual DbSet<Item> Items { get; set; }
 
-        public DbSet<Item> Items { get; set; }
+        public void SetModified(object item)
+        {
+            Entry(item).State = EntityState.Modified;
+        }
     }
 }

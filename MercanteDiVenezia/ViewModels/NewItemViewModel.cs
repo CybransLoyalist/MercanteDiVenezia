@@ -1,17 +1,20 @@
-﻿using System;
-using System.ComponentModel;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using MercanteDiVenezia.ExtensionsAndHelpers;
 using MercanteDiVenezia.Models;
+using MercanteDiVenezia.Models.Repositories;
 
 namespace MercanteDiVenezia.ViewModels
 {
     public class NewItemViewModel : ViewModel
     {
+        private readonly ItemsRepository _itemsRepository;
+
         public NewItemViewModel(
             WindowCreator windowCreator,
-            WindowOperationsHandler windowOperationsHandler) : base(windowCreator, windowOperationsHandler)
+            WindowOperationsHandler windowOperationsHandler,
+            ItemsRepository itemsRepository) : base(windowCreator, windowOperationsHandler)
         {
+            _itemsRepository = itemsRepository;
         }
 
         public Item Item { get; set; } = new Item();
@@ -20,9 +23,8 @@ namespace MercanteDiVenezia.ViewModels
 
         private void SaveItem(object obj)
         {
-            var mercanteDiVeneziaDbContext = new MercanteDiVeneziaDbContext();
-            mercanteDiVeneziaDbContext.Items.Add(Item);
-            mercanteDiVeneziaDbContext.SaveChanges();
+            _itemsRepository.AddToDbSet(Item);
+            _itemsRepository.SaveChanges();
             CloseWindow();
         }
 
