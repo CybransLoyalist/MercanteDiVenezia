@@ -110,9 +110,8 @@
     <Compile Include="ExtensionsAndHelpers\Command.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="ViewModels\ViewModel.cs" />
-    <Compile Include="ViewModels\WindowForViewModelCreator.cs" />
     <Compile Include="ViewModels\WindowOperationsHandler.cs" />
-    <Compile Include="ExtensionsAndHelpers\ApplicationFactory.cs" />
+    <Compile Include="Views\ApplicationFactory.cs" />
     <Compile Include="Views\NewItemView.xaml.cs">
       <DependentUpon>NewItemView.xaml</DependentUpon>
     </Compile>

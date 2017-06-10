@@ -9,8 +9,8 @@ namespace MercanteDiVenezia.ViewModels
     public class NewItemViewModel : ViewModel
     {
         public NewItemViewModel(
-            WindowOperationsHandler windowOperationsHandler,
-            WindowForViewModelCreator windowForViewModelCreator) : base(windowOperationsHandler, windowForViewModelCreator)
+            WindowCreator windowCreator,
+            WindowOperationsHandler windowOperationsHandler) : base(windowCreator, windowOperationsHandler)
         {
         }
 
@@ -30,5 +30,6 @@ namespace MercanteDiVenezia.ViewModels
         {
             return true;
         }
+
     }
 }

@@ -9,6 +9,7 @@ namespace MercanteDiVenezia.Views
             var mainWindow = new MainWindow { DataContext = new ApplicationFactory().Build() };
 
             mainWindow.Show();
+
             base.OnStartup(e);
         }
     }

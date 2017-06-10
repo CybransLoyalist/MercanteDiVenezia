@@ -1,5 +1,6 @@
 ﻿using System.Windows.Input;
 using MercanteDiVenezia.ExtensionsAndHelpers;
+using MercanteDiVenezia.Views;
 
 namespace MercanteDiVenezia.ViewModels
 {
@@ -8,9 +9,9 @@ namespace MercanteDiVenezia.ViewModels
         private readonly NewItemViewModel _newItemViewModel;
 
         public AdminViewModel(
-            NewItemViewModel newItemViewModel,
+            WindowCreator windowCreator,
             WindowOperationsHandler windowOperationsHandler,
-            WindowForViewModelCreator windowForViewModelCreator) : base(windowOperationsHandler, windowForViewModelCreator)
+            NewItemViewModel newItemViewModel) : base(windowCreator, windowOperationsHandler)
         {
             _newItemViewModel = newItemViewModel;
         }
@@ -18,13 +19,14 @@ namespace MercanteDiVenezia.ViewModels
         public ICommand AddItemCommand => new Command(AddItem, CanAddItem);
 
         private void AddItem(object obj)
-        {;
-            _newItemViewModel.Show<Views.NewItemView>();
+        {
+            _newItemViewModel.Show<NewItemView>();
         }
 
         private bool CanAddItem(object obj)
         {
             return true;
         }
+
     }
 }

@@ -1,4 +1,8 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using MercanteDiVenezia;
 using MercanteDiVenezia.ViewModels;
@@ -7,15 +11,12 @@ using NUnit.Framework;
 
 namespace MercanteDiVeneziaTests
 {
-
     [TestFixture, RequiresSTA]
-    public class ViewModelTests
-    { 
+    class ViewModelTests
+    {
         private ViewModel _sut;
+        private Mock<WindowCreator> _windowCreatorMock;
         private Mock<WindowOperationsHandler> _windowOperationsHandlerMock;
-        private Mock<WindowForViewModelCreator> _windowForViewModelCreatorMock;
-        private Mock<NewItemViewModel> _newItemViewModelMock;
-
         private Window _window;
 
         [SetUp]
@@ -23,31 +24,24 @@ namespace MercanteDiVeneziaTests
         {
             _window = new Window();
 
+            _windowCreatorMock = new Mock<WindowCreator>();
+            _windowCreatorMock.Setup(a => a.CreateFor(It.IsAny<AdminView>(), true)).Returns(_window);
+
             _windowOperationsHandlerMock = new Mock<WindowOperationsHandler>();
-            _windowOperationsHandlerMock.Setup(a => a.Show(_window));
-            _windowOperationsHandlerMock.Setup(a => a.Close(_window));
 
-            _windowForViewModelCreatorMock = new Mock<WindowForViewModelCreator>();
-
-            _newItemViewModelMock = new Mock<NewItemViewModel>(null, null);
-
-            _sut = new AdminViewModel(
-                _newItemViewModelMock.Object,
-                _windowOperationsHandlerMock.Object,
-                _windowForViewModelCreatorMock.Object);
-
-            _windowForViewModelCreatorMock.Setup(a => a.Create<AdminView>(_sut, true)).Returns(_window);
+            _sut = new AdminViewModel(_windowCreatorMock.Object, _windowOperationsHandlerMock.Object, null);
         }
 
         [Test]
-        public void ShowingWindow_ShallCreateNewWindow()
+        public void ShowingWindow_ShallCreateWindow()
         {
             _sut.Show<AdminView>();
-            _windowForViewModelCreatorMock.Verify(a => a.Create<AdminView>(_sut, true));
+
+            _windowCreatorMock.Verify(a => a.CreateFor(It.IsAny<AdminView>(), true));
         }
 
         [Test]
-        public void ShowingWindow_ShallShowWindow_ByHandler()
+        public void ShowingWindow_ShallCauseHandler_ToShowWindow()
         {
             _sut.Show<AdminView>();
 
@@ -55,27 +49,20 @@ namespace MercanteDiVeneziaTests
         }
 
         [Test]
-        public void IfTryingToOpenTheSameWindowTwice_ShallThrowException()
-        {
-            _sut.Show<AdminView>();
-            Assert.Throws<Exception>(() => _sut.Show<AdminView>());
-        }
-
-        [Test]
-        public void ClosingWindow_IfNotOpened_ShallDoNothing()
-        {
-            _sut.CloseWindow();
-
-            _windowOperationsHandlerMock.Verify(a => a.Close(_window), Times.Never);
-        }
-
-        [Test]
-        public void ClosingWindow_IfOpened_ShallCloseFromHandler()
+        public void ClosingWindow_ShallCauseHandler_ToCloseWindow()
         {
             _sut.Show<AdminView>();
             _sut.CloseWindow();
 
             _windowOperationsHandlerMock.Verify(a => a.Close(_window));
+        }
+
+        [Test]
+        public void IfWindowIsNotOpen_ShallDoNothingWhenClosing()
+        {
+            _sut.CloseWindow();
+
+            _windowOperationsHandlerMock.Verify(a => a.Close(_window), Times.Never);
         }
     }
 }
