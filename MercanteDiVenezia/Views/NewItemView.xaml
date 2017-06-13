@@ -14,7 +14,23 @@
             <Button Width="100px" HorizontalAlignment="Left" Command="{Binding SaveItemCommand}" Content="Zapisz"/>
         </StackPanel>
         <StackPanel Margin="320,67,-220,-67">
-            <TextBox Width="100" Height="20" HorizontalAlignment="Left"  Text="{Binding Item.Name}" />
+            <TextBox x:Name="Int32Holder"
+                                 Style="{StaticResource ValidationAwareTextBoxStyle}"
+                                 VerticalAlignment="Center">
+                <!--Text="{Binding Converter={cnv:TypeConverter}, ConverterParameter='Int32', Path=ValueToEdit.Value, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}"-->
+                <TextBox.Text>
+                    <Binding Path="Name"
+                                         ValidatesOnNotifyDataErrors="True"
+                                         ValidatesOnDataErrors="True"
+                                         NotifyOnValidationError="True">
+                        <Binding.ValidationRules>
+                            <MercanteDiVenezia.Views.Helpers:NotEmptyValidation ValidationType="{x:Type system:Int32}"
+                                                                               ValidatesOnTargetUpdated="True" />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <!--NumericValidationRule-->
+            </TextBox>
             <TextBox Width="100" Height="20" HorizontalAlignment="Left"  Text="{Binding Item.Value}" />
             <TextBox Width="100" Height="20" HorizontalAlignment="Left"  Text="{Binding Item.Quantity}" />
         </StackPanel>
