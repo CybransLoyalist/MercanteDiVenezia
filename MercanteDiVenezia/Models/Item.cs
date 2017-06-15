@@ -1,8 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace MercanteDiVenezia.Models
 {
-    public class Item : Model
+    public class Item : Model, IDataErrorInfo
     {
         private string _name;
         private decimal _value;
@@ -44,5 +47,32 @@ namespace MercanteDiVenezia.Models
                 OnPropertyChanged(nameof(Quantity));
             }
         }
+
+        #region IDataErrorInfo members
+
+        string IDataErrorInfo.Error
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        string IDataErrorInfo.this[string _name]
+        {
+            get
+            {
+                string result = null;
+                if (string.IsNullOrEmpty(_name))
+                {
+                    result = "Podaj nazwę";
+                }
+                
+                return result;
+                
+            }
+        }
+
+        #endregion
     }
 }
