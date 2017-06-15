@@ -10,7 +10,8 @@ namespace MercanteDiVenezia.Models
         private string _name;
         private decimal _value;
         private int _quantity;
-
+        private bool _isValid;
+        public bool IsValid => _isValid;
 
         [Key]
         public int Id { get; set; }
@@ -58,18 +59,21 @@ namespace MercanteDiVenezia.Models
             }
         }
 
-        string IDataErrorInfo.this[string _name]
+        string IDataErrorInfo.this[string columnName]
         {
             get
-            {
-                string result = null;
-                if (string.IsNullOrEmpty(_name))
+            { 
+                if (columnName == "Name")
                 {
-                    result = "Podaj nazwę";
+                    if (string.IsNullOrEmpty(_name))
+                    {
+                        _isValid = false;
+                        return "Nazwa jest wymagana";
+                    }
+                    _isValid = true;
                 }
-                
-                return result;
-                
+
+                return null;
             }
         }
 

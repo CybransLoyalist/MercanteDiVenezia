@@ -30,7 +30,7 @@ namespace MercanteDiVenezia.ViewModels
 
         private bool CanSaveItem(object obj)
         {
-            return true;
+            return Item.IsValid;
         }
 
     }

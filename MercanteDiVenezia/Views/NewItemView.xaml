@@ -6,12 +6,15 @@
         xmlns:local="clr-namespace:MercanteDiVenezia"
         xmlns:viewModels="clr-namespace:MercanteDiVenezia.ViewModels"
         mc:Ignorable="d" Height="400" Width="600">
+    <UserControl.Resources>
+         
+    </UserControl.Resources>
     <Grid>
         <StackPanel Margin="220,67,-220,-67">
             <Label Width="100" Height="20" HorizontalAlignment="Left"  Background="White" FontSize="9" Content="Produkt"/>
             <Label Width="100" Height="20" HorizontalAlignment="Left"  Background="White" FontSize="9" Content="Cena"/>
             <Label Width="100" Height="20" HorizontalAlignment="Left"  Background="White" FontSize="9" Content="Ilość"/>
-            <Button Width="100px" HorizontalAlignment="Left" Command="{Binding SaveItemCommand}" Content="Zapisz" IsEnabled="False"/>
+            <Button Width="100px" HorizontalAlignment="Left" Command="{Binding SaveItemCommand}" Content="Zapisz"/>
         </StackPanel>
         <StackPanel Margin="320,67,-220,-67">
             <TextBox Width="100" Height="20" HorizontalAlignment="Left" 
